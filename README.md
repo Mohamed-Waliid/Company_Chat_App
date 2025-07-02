@@ -77,9 +77,11 @@ A modern, real-time chat application built for internal company communication. S
 ## 🔐 Environment Variables
 
 Create a `.env` file inside the `Backend/` directory:
-
+---
 PORT=3002
+---
 MONGODB_URI=mongodb://localhost:27017/chat-app
+---
 JWT_SECRET=your_super_secret_key
 
 ---
