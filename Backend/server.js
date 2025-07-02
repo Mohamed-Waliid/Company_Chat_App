@@ -27,7 +27,7 @@ connectDB()
 
 
 //Register
-app.post("/auth/register", async (req, res) => {
+app.post("/register", async (req, res) => {
   const { username, password } = req.body;
 
   const exists = await User.findOne({ username });
@@ -42,7 +42,7 @@ app.post("/auth/register", async (req, res) => {
 });
 
 //Login
-app.post("/auth/login", async (req, res) => {
+app.post("/login", async (req, res) => {
   const { username, password } = req.body;
 
   const user = await User.findOne({ username });
