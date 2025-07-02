@@ -91,11 +91,13 @@ JWT_SECRET=your_super_secret_key
 ```bash
 git clone https://github.com/Mohamed-Waliid/Company_Chat_App.git
 cd chat-app
-
+```
+### 2.Install Backend Dependencies
 cd Backend
 npm install
 npm run dev
 
+### 3. Install Frontend Dependencies
 cd ../Frontend
 npm install
 npm start
