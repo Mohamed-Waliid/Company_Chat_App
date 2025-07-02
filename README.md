@@ -93,15 +93,20 @@ git clone https://github.com/Mohamed-Waliid/Company_Chat_App.git
 cd chat-app
 ```
 ### 2.Install Backend Dependencies
+```bash
 cd Backend
 npm install
 npm run dev
+```
 
 ### 3. Install Frontend Dependencies
+```bash
 cd ../Frontend
 npm install
 npm start
+```
 
+---
 
 ## ✅ Usage
 Register a new user from /register
